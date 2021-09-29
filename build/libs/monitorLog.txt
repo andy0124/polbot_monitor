@@ -1,0 +1,64 @@
+[INFO ] 10:10:54.970 c.e.c.CctvForChatingApplication - Starting CctvForChatingApplication using Java 1.8.0_301 on DESKTOP-9I6UQGU with PID 28352 (D:\intellij_storage\cctvForChating\build\libs\cctvForChating-0.0.1-SNAPSHOT.jar started by MUYO in D:\intellij_storage\cctvForChating\build\libs)
+[INFO ] 10:10:54.974 c.e.c.CctvForChatingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 10:10:57.497 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+[INFO ] 10:10:57.511 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+[INFO ] 10:10:57.512 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:10:57.513 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+[INFO ] 10:10:57.852 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 10:10:58.063 o.a.c.c.C.[.[localhost].[/polbot] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:10:58.066 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3015 ms
+[INFO ] 10:10:59.032 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+[WARN ] 10:10:59.041 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 18080 is already in use
+[INFO ] 10:10:59.047 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-18080"]
+[INFO ] 10:10:59.048 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 10:10:59.054 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-18080"]
+[INFO ] 10:10:59.055 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-18080"]
+[ERROR] 10:10:59.202 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 18080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 18080 or configure this application to listen on another port.
+
+[INFO ] 10:11:50.062 c.e.c.CctvForChatingApplication - Starting CctvForChatingApplication using Java 1.8.0_301 on DESKTOP-9I6UQGU with PID 11192 (D:\intellij_storage\cctvForChating\build\libs\cctvForChating-0.0.1-SNAPSHOT.jar started by MUYO in D:\intellij_storage\cctvForChating\build\libs)
+[INFO ] 10:11:50.067 c.e.c.CctvForChatingApplication - No active profile set, falling back to default profiles: default
+[INFO ] 10:11:52.591 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+[INFO ] 10:11:52.604 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+[INFO ] 10:11:52.605 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:11:52.605 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+[INFO ] 10:11:53.020 org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 10:11:53.275 o.a.c.c.C.[.[localhost].[/polbot] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:11:53.278 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3139 ms
+[INFO ] 10:11:54.161 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+[INFO ] 10:11:54.199 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path '/polbot'
+[INFO ] 10:11:54.311 c.e.c.CctvForChatingApplication - Started CctvForChatingApplication in 4.813 seconds (JVM running for 5.696)
+[INFO ] 10:11:54.480 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:11:54.480 c.e.c.s.checkSessionTimerService - init SessionList
+[INFO ] 10:11:55.497 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:11:55.541 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:11:58.506 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:11:58.568 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:12:01.506 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:12:01.524 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:12:03.917 o.a.c.c.C.[.[localhost].[/polbot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 10:12:03.917 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 10:12:03.928 o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+[INFO ] 10:12:04.506 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:12:04.526 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:12:07.499 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:12:07.542 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:12:10.493 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:12:10.512 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:12:13.503 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:12:13.546 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:12:16.494 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:12:16.513 c.e.c.service.monitorService - Current session list size : 0
+[INFO ] 10:12:19.498 c.e.c.service.ScheduledJob - check SessionList
+[INFO ] 10:12:19.541 c.e.c.service.monitorService - Current session list size : 0
